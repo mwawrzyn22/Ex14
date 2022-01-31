@@ -70,24 +70,6 @@ $(".world4").children().hover(function(){
   
   $("#worlds12").click(function(){
     scrollTo(7500,0)
-
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-}
-let x, y, r, g, b;
-
-function draw() {
-  r = random(20);
-  g = 0; 
-  b = random (50);
-  x = random(width);
-  y = random(height);
-  fill(r, g, b, 100);
-  circle (x, y, 9);
-  noStroke();
-
-}
-    
 })
     
      });
