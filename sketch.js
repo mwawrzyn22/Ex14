@@ -1,19 +1,21 @@
+// function setup() {
+//  let cnv = createCanvas(windowHeight, windowWidth);
+//   cnv.parent('worldls')
 
-let x, y, r, g, b;
+// let x, y, r, g, b;
 
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-}
+// function draw(){
+// r = random(20);
+// g = 0; 
+// b = random (10);
+// x = random(width);
+// y = random(height);
+// fill(100, 100, 0, 100);
+// circle (x, y, 9);
+// noStroke();
+// }
+// }
 
 
-function draw() {
-  r = random(20);
-  g = 0; 
-  b = random (50);
-  x = random(width);
-  y = random(height);
-  fill(r, g, b, 100);
-  circle (x, y, 9);
-  noStroke();
-}
-  
+
+
