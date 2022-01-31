@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+    scroll-behavior: smooth;  
+}
+
+body{
+    background-color: black;
+}
+
+.world1{
+    background-color:transparent;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.world2{
+    background-color: transparent;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.world3{
+    background-color: transparent;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.world4{
+    background-color: transparent;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.worlds1{
+    height: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 20px;
+    font-size: 200px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+    
+}
+
+.worlds2 {
+    height: 90%;
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: transparent;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: flex-grow .7s;
+}
+.world3 {
+    height: 500px;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: transparent;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: flex-grow .7s;
+}
+.world4 {
+    height: 500px;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: transparent;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: flex-grow .7s;
+}
+
+
+.worlds{
+    height: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: transparent;
+    margin-right: 20px;
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+    
+}
+.worlds1{
+    height: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: transparent;
+    margin-right: 20px;
+    font-size: 60px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+    color:tomato;
+    
+}
+
+.worlds111 {
+    height: 90%;
+    flex-grow: 10;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: transparent;
+    margin-right: 20px;
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: flex-grow .7s;
+    color:tomato;
+}
+
+.worlds2{
+    height: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: transparent;
+    margin-right: 20px;
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+}
+.worlds3{
+height: 90%;
+flex-grow: 1;
+flex-shrink: 1;
+background-color: transparent;
+margin-right: 20px;
+font-size: 100px;
+font-family: 'Archivo Black', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;  
+transition: flex-grow .7s;
+}
+.worlds4{
+    height: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: transparent;
+    margin-right: 20px;
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+}
+.worlds5{
+    height: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: transparent;
+    margin-right: 20px;
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;   
+}
+.worlds6{
+        height: 90%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        background-color: transparent;
+        margin-right: 20px;
+        font-size: 100px;
+        font-family: 'Archivo Black', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        transition: flex-grow .7s;
+}
+    
+
+
+.world{
+    background-color: transparent;
+    height: 500px;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+
+
+.container{
+    height: 300px;
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s{
+    height: 100%;
+    background-color: transparent;
+    min-width: 100px;
+}
+
+p{
+    color: rgb(255, 180, 17);
+    font-size: 64px;
+}
+
+.longscroll{
+    background-image: linear-gradient(rgb(58, 6, 6), rgb(19, 19, 1), rgb(9, 9, 39));
+    height: 5000px;
+}
+
